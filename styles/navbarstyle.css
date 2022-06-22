@@ -1,0 +1,34 @@
+.navbar{
+       display: flex;    
+    align-items: center;
+    justify-content:space-between;       
+} 
+ .brand{   
+    width: 45px;
+    height: 35px;  
+    margin-left: 15px;      
+}
+.logo{    
+    border-radius: 18px;   
+}
+.logo:hover{
+    opacity: 0.6;
+}
+.nav-items{
+    list-style: none;
+    display: flex;
+    justify-content: space-between; 
+    align-items: center;    
+}
+.nav-item{   
+   color: white;
+   text-decoration: none;
+   padding: 0 40px 0 40px;   
+}
+.nav-item:hover{
+    color: blue;
+}
+.nav-item:active{
+    color: blue;
+    text-decoration: underline;
+}

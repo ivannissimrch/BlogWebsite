@@ -1,0 +1,30 @@
+@import url("../styles/mainLayout.css");
+@import url("../styles/navbarstyle.css");
+@import url("../styles/buttonstyle.css");
+
+
+
+
+.form-container{
+    display: flex;    
+    justify-content: center;
+}
+
+form{
+    display: flex;
+    flex-direction: column;    
+    align-items: center; 
+    width: 800px;
+    height: 400px;  
+    margin: 20px 0px;   
+} 
+
+.form-item{
+    display: block; 
+    margin: 10px 0px;
+    width: 450px;   
+}
+ .form-text{
+   height: 200px;
+
+ }

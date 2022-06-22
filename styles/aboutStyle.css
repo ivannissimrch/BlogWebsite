@@ -1,0 +1,17 @@
+@import url("../styles/mainLayout.css");
+@import url("../styles/navbarstyle.css");
+
+
+
+
+.image-container{
+    display: grid;
+    place-items: center;   
+}
+
+.soon-image{
+    width: 300px;
+    height: 300px;  
+    margin: 50px 0px;
+   
+}

@@ -1,0 +1,41 @@
+body{
+    background-color:cadetblue;
+}
+.grid-container{   
+    display: grid;   
+    column-gap: 5px;
+    grid-template-columns:repeat(6, 1fr) ;   
+    grid-template-areas: "bar bar bar bar bar bar"  
+                          "header header header header header header"
+                          "main main main main main main"                          
+                          "footer footer footer footer footer footer";
+}
+
+#navbar-container{
+    background-color: black;   
+    grid-area:bar;    
+}
+
+#header{   
+    grid-area: header;
+    text-align: center;
+    font-family: Spinnaker;      
+ }
+ .form-item{
+    height: 25px;
+}
+
+ #main{   
+    grid-area: main;
+ }
+
+ #footer{       
+    grid-area: footer;    
+    text-align: center;    
+    color: white;
+    background-color:black; 
+    
+ }
+ .trade-mark{
+     margin: 10px 0px;
+ }
