@@ -1,7 +1,8 @@
 body{
     background-color:cadetblue;
+    margin: 0;
 }
-.grid-container{   
+.grid-container{      
     display: grid;   
     column-gap: 5px;
     grid-template-columns:repeat(6, 1fr) ;   
@@ -12,11 +13,13 @@ body{
 }
 
 #navbar-container{
+    margin-top: 0;
     background-color: black;   
-    grid-area:bar;    
+    grid-area:bar;     
 }
 
-#header{   
+#header{ 
+    margin-top:50px;  
     grid-area: header;
     text-align: center;
     font-family: Spinnaker;      

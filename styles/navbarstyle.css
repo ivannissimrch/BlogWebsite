@@ -1,5 +1,10 @@
+#navbar-container{
+ position: fixed;
+ width:100%; 
+}
+
 .navbar{
-       display: flex;    
+    display: flex;    
     align-items: center;
     justify-content:space-between;       
 } 
